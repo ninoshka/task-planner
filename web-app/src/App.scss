@@ -1,0 +1,79 @@
+.App {
+    width: 100%;
+    height: 100%;
+}
+
+.welcome {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+}
+
+.header {
+    font-size: 2rem;
+}
+
+.card-title ion-icon {
+    font-size: 64px;
+    color: #107c41;
+}
+
+ion-icon {
+    font-size: 16px;
+    color: #107c41;
+    padding-right: 10px;
+}
+
+#dropdownMenuButton2{
+    position: relative;
+    bottom: 38px;
+    left: 250px;
+}
+
+.initials {
+    display:inline-block;
+  font-size:1em;
+  width:2.5em;
+  height:2.5em;
+  line-height:2.5em;
+  text-align:center;
+  border-radius:50%;
+  background:plum;
+  vertical-align:middle;
+  margin-right:1em;
+  color:white;
+  position: relative;
+  left: 6px;
+}
+
+.date{
+    position: relative;
+    left: 247px;
+    bottom: 10px;
+    display: inline-grid;
+}
+
+.buckets {
+    width : 40%;
+}
+
+.priority{
+    width : 40%;
+    margin-left: 59px;
+}
+
+.dropdown{
+    display: flex;
+
+}
+
+.assignedto{
+    position: relative;
+    top: 45px;
+}

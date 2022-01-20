@@ -1,0 +1,34 @@
+# Files which the git will ignore when pushing to the remote repository.
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Build Folder
+build/
+
+# Dependency directories
+node_modules/
+dist/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Output of 'npm pack'
+*.tgz
+
+# environment variables files
+.env
+.env.test
+.env.production
+
+# Next.js build output
+.next
+out

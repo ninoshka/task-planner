@@ -1,0 +1,50 @@
+.basicPrioritySpan {
+  border-radius: 25px;
+  padding: 3px;
+  color: white;
+  font-size: 12px;
+  height: 10px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+.taskCard {
+  a {
+    padding: 0px;
+  }
+
+  .flexClass {
+    .flexLeft {
+      margin-left: auto;
+    }
+  }
+
+  .title {
+    font-size: 14px;
+    white-space: pre-wrap;
+    word-break: break-word;
+    padding-bottom: 20px;
+  }
+
+  ion-icon[name="trash-outline"] {
+    color: rgb(255, 80, 36);
+  }
+
+  span.HIGH {
+    @extend .basicPrioritySpan;
+    background-color: rgb(255, 80, 36);
+    width: 40px;
+  }
+
+  span.MEDIUM {
+    @extend .basicPrioritySpan;
+    background-color: rgb(255, 190, 93);
+    width: 40px;
+  }
+
+  span.LOW {
+    @extend .basicPrioritySpan;
+    background-color: rgb(155, 202, 255);
+    width: 40px;
+  }
+}

@@ -1,0 +1,6 @@
+// mixin to create a flex box
+@mixin setFlexRowContainer($display, $alignItem, $justifyCenter){
+    display:$display;
+    align-items: $alignItem;
+    justify-content: $justifyCenter;
+}
